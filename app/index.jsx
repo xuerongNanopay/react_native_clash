@@ -6,7 +6,7 @@ const App = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
       <Text className="text-3xl font-pblack text-green-800">Foree!</Text>
-      <Link href="/profile">Go to Profile</Link>
+      {/* <Link href="/profile">Go to Profile</Link> */}
     </View>
   )
 }
