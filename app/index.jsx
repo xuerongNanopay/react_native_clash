@@ -4,8 +4,8 @@ import { Link } from 'expo-router'
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-3xl">Foree!</Text>
       <Link href="/profile">Go to Profile</Link>
     </View>
   )
